@@ -1,0 +1,25 @@
+{
+  "group": "菜单",
+  "router": [
+    {
+      "path": "login",
+      "title": "登录页",
+      "alias": false,
+      "meta": {
+        "name": "login",
+        "group": "login",
+        "isMenu": false
+      }
+    },
+    {
+      "path": "index",
+      "title": "主页",
+      "alias": "/",
+      "meta": {
+        "name": "主页",
+        "group": "主页",
+        "isMenu": true
+      }
+    }
+  ]
+}
