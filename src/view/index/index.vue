@@ -1,3 +1,4 @@
+<!--首页-->
 <template>
     <div>这是一个首页</div>
 </template>

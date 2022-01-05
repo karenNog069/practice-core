@@ -3,10 +3,15 @@ import App from './App.vue'
 
 import routerConfig from './config/router.config'
 import vueConfig from './config/vue.config';
+import components from './config/components.config'
 
 
 // 各类配置
 vueConfig.init();
+components.init();
+
+//样式表
+import './assets/sass/index.scss';
 
 const router = routerConfig.initRouter();
 const app = new Vue({
