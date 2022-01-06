@@ -8,5 +8,9 @@ export default {
     mounted() {
     },
 
-    methods: {}
+    methods: {
+        loginOut() {
+            this.$router.replace('/login')
+        }
+    }
 }
