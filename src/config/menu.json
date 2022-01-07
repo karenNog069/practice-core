@@ -3,12 +3,16 @@
     {
       "icon": "el-icon-s-home",
       "menuName": "主页",
-      "tag": "main"
+      "tag": "main",
+      "path": "view/mainCube",
+      "id": "1"
     },
     {
       "icon": "el-icon-document",
-      "menuName": "页面1",
-      "tag": "page1"
+      "menuName": "测试页面",
+      "tag": "page1",
+      "path": "testPage",
+      "id": "2"
     }
   ]
 }

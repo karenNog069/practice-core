@@ -32,7 +32,11 @@
                     </el-tooltip>
                 </div>
             </el-header>
-            <el-main>Main</el-main>
+            <el-main>
+                <div class="page-iframe">
+                    <iframe class="frame" :id="'iframe_'+menuId" :src="pageUrl"></iframe>
+                </div>
+            </el-main>
         </el-container>
     </el-container>
 </template>
