@@ -1,0 +1,14 @@
+{
+  "menuInfo": [
+    {
+      "icon": "el-icon-s-home",
+      "menuName": "主页",
+      "tag": "main"
+    },
+    {
+      "icon": "el-icon-document",
+      "menuName": "页面1",
+      "tag": "page1"
+    }
+  ]
+}
